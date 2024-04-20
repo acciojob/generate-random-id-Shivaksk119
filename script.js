@@ -3,7 +3,7 @@ function makeid(l) {
 	let chars = "ABCDEFGIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
 
 	let id = "";
-	for(let i=0;i<=l;i++) {
+	for(let i=0;i<l;i++) {
 		let rndmIdx = parseInt(Math.random()*chars.length);
 		let rndmVal = chars[rndmIdx];
 		id = id + rndmVal;
